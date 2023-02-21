@@ -1,0 +1,17 @@
+<html>
+<head>
+ <title>contador de clics</title>
+</head>
+<body>
+ <!-- Script en JavaScript que se explicará más adelante -->
+ <script type="text/JavaScript">
+ var clics = 0;
+ function clicsCounter() {
+ clics += 1;
+ document.getElementById("clics").innerHTML = clics;
+ };
+ </script>
+22
+ <button type="button" onclick="clicsCounter()">Suma uno!</button>
+ <p>Clics: <a id="clics">0</a></p>
+</body></html>
